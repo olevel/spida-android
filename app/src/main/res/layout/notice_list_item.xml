@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noticeDate"
+        android:id="@+id/noticeDate"
+        android:textColor="@color/date_stamp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/noticeSource"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noticeCaption"
+        android:id="@+id/noticeCaption"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/noticeDate"
+        android:layout_toStartOf="@+id/noticeDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noticeSource"
+        android:id="@+id/noticeSource"
+        android:textStyle="italic"
+        android:layout_below="@+id/noticeCaption"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/noticeDate"
+        android:layout_toStartOf="@+id/noticeDate" />
+</RelativeLayout>

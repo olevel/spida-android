@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.ss.charles.spida.NoticeViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noticeBody"
+            android:text="@string/noticeBody"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginBottom="30dp"/>
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeDate"
+        android:text="@string/noticeDate"
+        android:textColor="@color/notice_view_footer_text"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:background="@color/notice_view_footer"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noticeSource"
+        android:textColor="@color/notice_view_footer_text"
+        android:textStyle="italic"
+        android:id="@+id/noticeSource"
+        android:layout_above="@+id/noticeDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="16dp"
+        android:background="@color/notice_view_footer"/>
+
+
+</RelativeLayout>

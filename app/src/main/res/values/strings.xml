@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SPIDA</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">Spida</string>
+
+    <!-- Tabs Naming Strings -->
+    <string name="notice">notice</string>
+    <string name="assignment">assignment</string>
+    <string name="library">library</string>
+
+    <!-- Notice Section Strings -->
+    <string name="noticeDate">Notice Date</string>
+    <string name="noticeCaption">Notice Caption</string>
+    <string name="noticeSource">Notice Source</string>
+    <string name="noticeBody">Notice Body</string>
+
+    <string name="title_activity_new_notice">New Notice</string>
+
+    <!-- Assignment Section String -->
+    <string name="assignmentTopic">Assignment Topic</string>
+    <string name="assignmentQuestions">Assignment Question</string>
+    <string name="assignmentDate">Assignment Date</string>
+    <string name="assignmentDeadline">Assignment Deadline</string>
+    <string name="assignmentDeadlineButton">Deadline</string>
+    <string name="assignmentSource">Assignment Source</string>
+    <string name="deadlineDatePickerTitle">Deadline Date:</string>
+    <string name="deadlineTimePickerTitle">Time:</string>
+
+
+    <!-- Menu Naming Strings -->
+    <string name="action_settings">Settings</string>
+    <string name="new_settings">New</string>
+    <string name="attach_image">Attach Image</string>
+    <string name="delete">Delete</string>
+    <string name="snap_shot">Snap Shot</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notice_view_pager">NoticeViewPager</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="title_activity_assignment_view">AssignmentViewActivity</string>
+    <string name="title_activity_new_assignment">NewAssignmentActivity</string>
+
+    <!-- Descriptions -->
+    <string name="desc_clear_button">This is a button to clear the content of all EditViews</string>
+    <string name="desc_send_button">This is a button to forward the content of all EditViews</string>
+
+    <!-- Camera -->
+    <string name="take">Take!</string>
+    <string name="no_photo">No Photo</string>
+
+    <!-- Suspect test -->
+    <string name="crime_report">%1$s! The crime was discovered on %2$s, and %4$s</string>
+    <string name="photo_report_has">The photo is available</string>
+    <string name="photo_report_has_none">The photo is not available</string>
+    <string name="crime_report_no_suspect">There is no suspect.</string>
+    <string name="crime_report_suspect">The suspect is %s.</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send report via</string>
+
+    <string name="title_activity_registration">Registration</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_user_register">Register</string>
+    <string name="register_user">Register</string>
+
+</resources>
